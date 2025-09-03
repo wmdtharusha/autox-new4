@@ -77,7 +77,7 @@ export const ProfilePage: React.FC<ProfilePageProps> = ({ user, onUpdateProfile,
                           className="w-full h-full rounded-full object-cover"
                         />
                       ) : (
-                        <User size={32} className="text-yellow-600" />
+                        <span className="text-yellow-600 text-4xl">👤</span>
                       )}
                     </div>
                     {isEditing && (

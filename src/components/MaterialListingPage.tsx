@@ -317,7 +317,7 @@ export const MaterialListingPage: React.FC<MaterialListingPageProps> = ({ onBack
                   <div className="flex items-start justify-between mb-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                        <User className="w-5 h-5 text-blue-600" />
+                        <span className="text-blue-600 text-lg">👤</span>
                       </div>
                       <div>
                         <div className="flex items-center space-x-2">

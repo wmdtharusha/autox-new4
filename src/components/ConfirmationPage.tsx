@@ -23,13 +23,13 @@ export const ConfirmationPage: React.FC<ConfirmationPageProps> = ({ onAction, re
   const getRoleIcon = (role: string) => {
     switch (role) {
       case 'consumer':
-        return <Users className="w-8 h-8 text-blue-500" />;
+        return <span className="text-4xl">👥</span>;
       case 'vehicle_owner':
-        return <TrendingUp className="w-8 h-8 text-yellow-500" />;
+        return <span className="text-4xl">🚚</span>;
       case 'material_supplier':
-        return <Award className="w-8 h-8 text-green-500" />;
+        return <span className="text-4xl">📦</span>;
       default:
-        return <Star className="w-8 h-8 text-gray-500" />;
+        return <span className="text-4xl">⭐</span>;
     }
   };
 

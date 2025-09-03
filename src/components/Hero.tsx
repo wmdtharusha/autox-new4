@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ onServiceSelect }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center text-white">
             <div className="inline-flex items-center bg-yellow-400/20 backdrop-blur-sm text-yellow-300 px-6 py-3 rounded-full text-sm font-medium mb-8">
-              <Star className="w-4 h-4 mr-2 fill-current" />
+              <span className="mr-2">⭐</span>
               Sri Lanka's Leading Construction Platform
             </div>
             

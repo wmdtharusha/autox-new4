@@ -215,7 +215,7 @@ export const AboutPage: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-24 h-24 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-white text-2xl font-bold">DT</span>
+                <span className="text-white text-2xl">👩‍💼</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Dilmi Tharushika</h3>
               <p className="text-orange-600 font-semibold mb-4">Project Lead</p>
@@ -233,7 +233,7 @@ export const AboutPage: React.FC = () => {
 
             <div className="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-white text-2xl font-bold">RR</span>
+                <span className="text-white text-2xl">👨‍💻</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Rukmal Ravindu</h3>
               <p className="text-blue-600 font-semibold mb-4">Frontend Developer</p>
@@ -251,7 +251,7 @@ export const AboutPage: React.FC = () => {
 
             <div className="bg-white rounded-2xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-green-600 rounded-full mx-auto mb-6 flex items-center justify-center">
-                <span className="text-white text-2xl font-bold">NR</span>
+                <span className="text-white text-2xl">👨‍💻</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Nisala Rukashan</h3>
               <p className="text-green-600 font-semibold mb-4">Backend Developer</p>

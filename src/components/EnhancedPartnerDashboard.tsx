@@ -391,7 +391,7 @@ export const EnhancedPartnerDashboard: React.FC<EnhancedPartnerDashboardProps> =
                 {notifications.slice(0, 3).map((notification) => (
                   <div key={notification.id} className="flex items-start p-4 bg-gray-50 rounded-xl">
                     <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mr-4">
-                      <User className="w-6 h-6 text-yellow-600" />
+                      <span className="text-yellow-600 text-lg">👤</span>
                     </div>
                     <div className="flex-1">
                       <div className="flex items-center justify-between mb-2">

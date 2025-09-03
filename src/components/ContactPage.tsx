@@ -50,17 +50,17 @@ export const ContactPage: React.FC = () => {
             
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Phone className="w-8 h-8 text-black mx-auto mb-3" />
+                <span className="text-black text-3xl mx-auto mb-3 block">📞</span>
                 <h3 className="font-bold text-lg mb-2">Call Us</h3>
                 <p className="text-black text-sm">24/7 Support Available</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Mail className="w-8 h-8 text-black mx-auto mb-3" />
+                <span className="text-black text-3xl mx-auto mb-3 block">📧</span>
                 <h3 className="font-bold text-lg mb-2">Email Us</h3>
                 <p className="text-black text-sm">Quick Response Guaranteed</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <MapPin className="w-8 h-8 text-black mx-auto mb-3" />
+                <span className="text-black text-3xl mx-auto mb-3 block">📍</span>
                 <h3 className="font-bold text-lg mb-2">Visit Us</h3>
                 <p className="text-black text-sm">Multiple Locations</p>
               </div>
