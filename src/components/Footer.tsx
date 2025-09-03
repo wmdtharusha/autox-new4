@@ -21,7 +21,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <div className="text-gray-300">Happy Customers</div>
             </div>
             <div className="space-y-3">
-              <div className="bg-blue-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto">
+              <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-3 rounded-xl shadow-lg">
                 <span className="text-white text-2xl">🚚</span>
               </div>
               <div className="text-3xl font-bold text-white">1000+</div>
@@ -66,16 +66,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </p>
               <div className="flex space-x-4">
                 <div className="w-12 h-12 bg-yellow-400 rounded-xl flex items-center justify-center hover:bg-yellow-500 cursor-pointer transition-colors group">
-                  <span className="text-white font-bold group-hover:scale-110 transition-transform">f</span>
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">📘</span>
                 </div>
                 <div className="w-12 h-12 bg-yellow-400 rounded-xl flex items-center justify-center hover:bg-yellow-500 cursor-pointer transition-colors group">
-                  <span className="text-white font-bold group-hover:scale-110 transition-transform">t</span>
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">🐦</span>
                 </div>
                 <div className="w-12 h-12 bg-yellow-400 rounded-xl flex items-center justify-center hover:bg-yellow-500 cursor-pointer transition-colors group">
-                  <span className="text-white font-bold group-hover:scale-110 transition-transform">in</span>
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">💼</span>
                 </div>
                 <div className="w-12 h-12 bg-yellow-400 rounded-xl flex items-center justify-center hover:bg-yellow-500 cursor-pointer transition-colors group">
-                  <span className="text-white font-bold group-hover:scale-110 transition-transform">ig</span>
+                  <span className="text-white text-lg group-hover:scale-110 transition-transform">📷</span>
                 </div>
               </div>
             </div>

@@ -126,7 +126,9 @@ export const BusinessProfilePage: React.FC<BusinessProfilePageProps> = ({
                 <div className="flex items-center space-x-6">
                   <div className="relative">
                     <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center">
-                      <User size={32} className={partner.type === 'vehicle_owner' ? 'text-yellow-600' : 'text-green-600'} />
+                      <span className={`text-4xl ${partner.type === 'vehicle_owner' ? 'text-yellow-600' : 'text-green-600'}`}>
+                        {partner.type === 'vehicle_owner' ? '🚚' : '📦'}
+                      </span>
                     </div>
                     {isEditing && (
                       <label className="absolute -bottom-2 -right-2 bg-white text-gray-600 p-2 rounded-full cursor-pointer hover:bg-gray-100 transition-colors shadow-lg">

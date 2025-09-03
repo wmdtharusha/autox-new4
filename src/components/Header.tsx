@@ -129,7 +129,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center space-x-3 cursor-pointer group"
           >
             <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-3 rounded-xl shadow-lg group-hover:scale-105 transition-transform duration-300">
-              <span className="text-white text-2xl font-bold">A</span>
+              <span className="text-white text-2xl">🚚</span>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900 group-hover:text-yellow-600 transition-colors">
@@ -172,7 +172,7 @@ export const Header: React.FC<HeaderProps> = ({
                         className="w-full h-full rounded-full object-cover"
                       />
                     ) : (
-                      <span className="text-yellow-600 text-sm font-bold">U</span>
+                      <span className="text-yellow-600 text-lg">👤</span>
                     )}
                   </div>
                   <div className="text-left hidden sm:block">
@@ -194,7 +194,7 @@ export const Header: React.FC<HeaderProps> = ({
                               className="w-full h-full rounded-full object-cover"
                             />
                           ) : (
-                            <span className="text-white text-lg font-bold">U</span>
+                            <span className="text-white text-lg">👤</span>
                           )}
                         </div>
                         <div>
